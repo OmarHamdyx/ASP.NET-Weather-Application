@@ -1,5 +1,7 @@
 ﻿@model CityWeather;
 @{
+	ViewBag.Title = Model.CityName;
+
 	string ReturnBoxColor(int? temperature)
 	{
 		return temperature switch
@@ -12,35 +14,27 @@
 	}
 
 }
-<!DOCTYPE html>
-<html>
-<head>
-	<title>@Model.CityName Weather Page</title>
-	<link rel="stylesheet" href="~/StyleSheet.css" />
-	<meta charset="utf-8" />
-</head>
-<body>
-	<h1>Weather</h1>
-		<div class="center-div page-content">
-			<div>
-				<div class="flex-borderless-boxes "> 
-					<div class=@ReturnBoxColor(Model.TemperatureFahrenheit)>		
-						<div class="flex-borderless">
-							<div  class="left-items">
-								<div class="font-size bold-text">@Model.CityName</div>
-								<div class="text-grey bold-text">@Model.DateAndTime.ToString("dd MMM yyy")</div>
-								<div class="text-grey bold-text">@Model.DateAndTime.ToString("hh:mm tt")</div>
-							</div>
-							<div class="vertical-line"></div>
-							<div class="fahrenheit-font-size bold-text">@Model.TemperatureFahrenheit</div>
-							<div class="degree-symbol-style text-grey">°F</div>
-						</div>
+
+
+<div class="center-div page-content">
+	<div>
+		<div class="flex-borderless-boxes "> 
+			<div class=@ReturnBoxColor(Model.TemperatureFahrenheit)>		
+				<div class="flex-borderless">
+					<div  class="left-items">
+						<div class="font-size bold-text">@Model.CityName</div>
+						<div class="text-grey bold-text">@Model.DateAndTime.ToString("dd MMM yyy")</div>
+						<div class="text-grey bold-text">@Model.DateAndTime.ToString("hh:mm tt")</div>
 					</div>
+					<div class="vertical-line"></div>
+					<div class="fahrenheit-font-size bold-text">@Model.TemperatureFahrenheit</div>
+					<div class="degree-symbol-style text-grey">°F</div>
 				</div>
 			</div>
-			<div>	
-			<a class="margin-set" href="/">Back to weather Home Page</a>
-			</div>
-		 </div>
-</body>
-</html>
+		</div>
+	</div>
+	<div>	
+	<a class="margin-set" href="/">Back to weather Home Page</a>
+	</div>
+ </div>
+

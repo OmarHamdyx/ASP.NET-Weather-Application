@@ -1,5 +1,6 @@
 ﻿@model IEnumerable<CityWeather>;
 @{
+	ViewBag.Title = "All City Weathers";
 	string ReturnBoxColor(int? temperature)
 	{
 		return temperature switch
@@ -12,33 +13,25 @@
 	}
 
 }
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Cities Weather Page</title>
-	<link rel="stylesheet" href="~/StyleSheet.css" />
-	<meta charset="utf-8" />
-</head>
-<body>
-	<h1>Weather</h1>
-	<div class="center-div page-content">
-		<div class="flex-borderless-boxes ">    
-			@foreach (CityWeather cityWeather in Model)
-			{
-					<div class=@ReturnBoxColor(cityWeather.TemperatureFahrenheit)>		
-						<div class="flex-borderless">
-							<div class="left-items">
-								<div class="font-size bold-text">@cityWeather.CityName</div>
-								<div class="text-dark-grey bold-text">@cityWeather.DateAndTime.ToString("hh:mm tt")</div>
-								<a href="/weather/@cityWeather.CityUniqueCode">Details</a>
-							</div>
-							<div class="vertical-line"></div>
-							<div class="fahrenheit-font-size bold-text">@cityWeather.TemperatureFahrenheit</div>
-							<div class="degree-symbol-style text-grey">°F</div>
-						</div>
+
+
+
+<div class="center-div ">
+	<div class="flex-borderless">    
+		@foreach (CityWeather cityWeather in Model)
+		{
+			<div class=@ReturnBoxColor(cityWeather.TemperatureFahrenheit)>		
+				<div class="flex-borderless">
+					<div class="left-items">
+						<div class="font-size bold-text">@cityWeather.CityName</div>
+						<div class="text-dark-grey bold-text">@cityWeather.DateAndTime.ToString("hh:mm tt")</div>
+						<a href="/weather/@cityWeather.CityUniqueCode">Details</a>
 					</div>
-			}
-		</div>
+					<div class="vertical-line"></div>
+					<div class="fahrenheit-font-size bold-text">@cityWeather.TemperatureFahrenheit</div>
+					<div class="degree-symbol-style text-grey">°F</div>
+				</div>
+			</div>
+		}
 	</div>
-</body>
-</html>
+</div>

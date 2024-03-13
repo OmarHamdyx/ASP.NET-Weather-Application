@@ -11,5 +11,7 @@ namespace WeatherApplication.Controllers
             CityWeatherListFactory listFactory = new CityWeatherListFactory();
             return View(listFactory.CreatList());
         }
+        
+
     }
 }

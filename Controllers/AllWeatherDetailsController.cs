@@ -3,6 +3,7 @@ using WeatherApplication.Factories;
 
 namespace WeatherApplication.Controllers
 {
+
     public class AllWeatherDetailsController : Controller
     {
         [Route("/")]

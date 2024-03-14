@@ -1,44 +1,7 @@
-﻿@model IEnumerable<CityWeather>;
-@{
-	string ReturnBoxColor(int? temperature)
+﻿@model IEnumerable<CityWeather>
+<div class="center-div flex-borderless ">
+	@foreach (CityWeather cityWeather in Model)
 	{
-		return temperature switch
-		{
-			(< 44) => "box-blue",
-			( >=44 ) and ( < 74) => "box-green",
-			(>=74)=>"box-orange",
-			(null)=>"box-blue"
-		};
+	<partial name="_BoxesPartialView" model="cityWeather"></partial>
 	}
-
-}
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Cities Weather Page</title>
-	<link rel="stylesheet" href="~/StyleSheet.css" />
-	<meta charset="utf-8" />
-</head>
-<body>
-	<h1>Weather</h1>
-	<div class="center-div page-content">
-		<div class="flex-borderless-boxes ">    
-			@foreach (CityWeather cityWeather in Model)
-			{
-					<div class=@ReturnBoxColor(cityWeather.TemperatureFahrenheit)>		
-						<div class="flex-borderless">
-							<div class="left-items">
-								<div class="font-size bold-text">@cityWeather.CityName</div>
-								<div class="text-dark-grey bold-text">@cityWeather.DateAndTime.ToString("hh:mm tt")</div>
-								<a href="/weather/@cityWeather.CityUniqueCode">Details</a>
-							</div>
-							<div class="vertical-line"></div>
-							<div class="fahrenheit-font-size bold-text">@cityWeather.TemperatureFahrenheit</div>
-							<div class="degree-symbol-style text-grey">°F</div>
-						</div>
-					</div>
-			}
-		</div>
-	</div>
-</body>
-</html>
+</div>

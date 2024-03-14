@@ -3,6 +3,7 @@ using WeatherApplication.Factories;
 
 namespace WeatherApplication.Controllers
 {
+
     public class AllWeatherDetailsController : Controller
     {
         [Route("/")]
@@ -11,7 +12,5 @@ namespace WeatherApplication.Controllers
             CityWeatherListFactory listFactory = new CityWeatherListFactory();
             return View(listFactory.CreatList());
         }
-        
-
     }
 }

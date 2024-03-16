@@ -226,11 +226,18 @@ a:hover
     text-align: center;
 }
 
-.margin-auto
-{
-    margin: auto;
+.margin-auto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
 }
-
+.margin-set {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
 .margin-bottom
 {
     margin-bottom: 20px;
@@ -317,9 +324,7 @@ a:hover
     background-color: #faca70; /* Orange background color */
 }
 
-.margin-set {
-    margin: 0 0 0 43.5%;
-}
+
 
 .flex {
     display: flex;
@@ -341,7 +346,7 @@ a:hover
 .flex-borderless {
     display: flex;
     justify-content: center;
-  
+ 
 }
 .left-items {
     margin:0 10% 0 0px;

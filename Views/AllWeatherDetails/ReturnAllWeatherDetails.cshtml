@@ -1,5 +1,6 @@
 ﻿@model IEnumerable<CityWeather>
-<div class="center-div flex-borderless ">
+
+<div class="flex-borderless margin-auto">
 	@foreach (CityWeather cityWeather in Model)
 	{
 	<partial name="_BoxesPartialView" model="cityWeather"></partial>

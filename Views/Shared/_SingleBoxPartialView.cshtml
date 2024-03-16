@@ -1,0 +1,26 @@
+﻿@model CityWeather
+@{
+	ViewBag.Title = "All City Weathers";
+	string ReturnBoxColor(int? temperature)
+	{
+		return temperature switch
+		{
+			(< 44) => "box-blue",
+			(>= 44) and (< 74) => "box-green",
+			(>= 74) => "box-orange",
+			(null) => "box-blue"
+		};
+	}
+}
+<div class=@ReturnBoxColor(Model.TemperatureFahrenheit)>		
+	<div class="flex-borderless">
+		<div  class="left-items">
+			<div class="font-size bold-text">@Model.CityName</div>
+			<div class="text-grey bold-text">@Model.DateAndTime.ToString("dd MMM yyy")</div>
+			<div class="text-grey bold-text">@Model.DateAndTime.ToString("hh:mm tt")</div>
+		</div>
+		<div class="vertical-line"></div>
+		<div class="fahrenheit-font-size bold-text">@Model.TemperatureFahrenheit</div>
+		<div class="degree-symbol-style text-grey">°F</div>
+	</div>
+</div>

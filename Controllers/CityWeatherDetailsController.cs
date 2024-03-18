@@ -1,24 +1,18 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WeatherApplication.Factories;
 using WeatherApplication.Models;
+using WeatherApplication.StaticClasses;
 
 namespace WeatherApplication.Controllers
 {
+    [Controller]
     public class CityWeatherDetailsController : Controller
     {
         [Route("/weather/{cityCode}")]
-        public IActionResult ReturnCityWeatherDetail(string? cityCode)
+        public IActionResult ReturnCityWeatherDetails(string? cityCode)
         {
-            CityWeatherListFactory listFactory = new CityWeatherListFactory();
-            List<CityWeather> cityWeatherList = listFactory.CreatList();
-            CityWeather? cityWeather = cityWeatherList.SingleOrDefault(cw => cw.CityUniqueCode == cityCode);
-
-            if (cityWeather == null)
-            {
-                return View("ErrorPage");
-            }
-
-            return View(cityWeather);
+            ViewBag.Title= SetViewBag.ReturnTitleString(cityCode);
+			return View(null,cityCode);
         }
 
     }

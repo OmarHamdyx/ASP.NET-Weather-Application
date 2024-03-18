@@ -1,6 +1,8 @@
 ﻿@model CityWeather
 @{
-	ViewBag.Title = "All City Weathers";
+	ViewBag.Title = Model.CityName+"City Weather";
+}
+@{
 	string ReturnBoxColor(int? temperature)
 	{
 		return temperature switch

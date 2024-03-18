@@ -6,6 +6,7 @@ namespace WeatherApplication.ViewComponents
     [ViewComponent]
     public class AllBoxesViewComponent: ViewComponent
     {
+
         public async Task<IViewComponentResult> InvokeAsync()
         {
 			CityWeatherListFactory listFactory = new CityWeatherListFactory();

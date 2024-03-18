@@ -3,9 +3,9 @@ using WeatherApplication.Models;
 
 namespace WeatherApplication.StaticClasses
 {
-	public static class SetViewBag
+	public class SetViewBag
 	{
-		public static string ReturnTitleString(string? cityCode)
+		public static string ReturnTitle(string? cityCode)
 		{
 			CityWeatherListFactory listFactory = new CityWeatherListFactory();
 			List<CityWeather> cityWeatherList = listFactory.CreatList();

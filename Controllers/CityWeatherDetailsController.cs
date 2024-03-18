@@ -11,7 +11,7 @@ namespace WeatherApplication.Controllers
         [Route("/weather/{cityCode}")]
         public IActionResult ReturnCityWeatherDetails(string? cityCode)
         {
-            ViewBag.Title= SetViewBag.ReturnTitleString(cityCode);
+            ViewBag.Title= SetViewBag.ReturnTitle(cityCode);
 			return View(null,cityCode);
         }
 

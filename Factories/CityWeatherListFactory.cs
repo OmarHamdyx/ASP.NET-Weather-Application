@@ -5,7 +5,7 @@ namespace WeatherApplication.Factories
     public class CityWeatherListFactory
     {
 
-        public List<CityWeather> CreatList()
+        public static List<CityWeather> CreatList()
         {
             return new List<CityWeather>() {
                 new CityWeather{ CityUniqueCode = "LDN", CityName = "London", DateAndTime = DateTime.Parse("2020-12-30 6:00 AM"), TemperatureFahrenheit = 33 },

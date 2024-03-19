@@ -9,8 +9,8 @@ namespace WeatherApplication.ViewComponents
 
         public async Task<IViewComponentResult> InvokeAsync()
         {
-			CityWeatherListFactory listFactory = new CityWeatherListFactory();
-			return  View("AllBoxesPartialView", listFactory.CreatList());
+			
+			return  View("AllBoxesPartialView", CityWeatherListFactory.CreatList());
 		}
     }
 }

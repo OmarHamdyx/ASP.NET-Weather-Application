@@ -1,11 +1,19 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using WeatherApplication.Factories;
-using WeatherApplication.Models;
+using Models;
+using Interfaces;
 
 namespace WeatherApplication.ViewComponents
 {
 	public class BoxCityWeatherDetailsViewComponent : ViewComponent
 	{
+		private readonly ICitiesProvider _citiesProvider;
+
+		public BoxCityWeatherDetailsViewComponent(ICitiesProvider citiesProvider)
+		{
+			_citiesProvider = citiesProvider;
+
+		}
+
 		private string ReturnBoxColor(int? temperature)
 		{
 			return temperature switch
@@ -18,7 +26,8 @@ namespace WeatherApplication.ViewComponents
 		}
 		public async Task<IViewComponentResult> InvokeAsync(string? cityCode)
 		{
-			List<CityWeather> cityWeatherList = CityWeatherListFactory.CreatList();
+			List<CityWeather> cityWeatherList = _citiesProvider.CreatList();
+
 			CityWeather? cityWeather = cityWeatherList.SingleOrDefault(cw => cw.CityUniqueCode == cityCode);
 
 			if (cityWeather == null)

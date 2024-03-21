@@ -1,8 +1,0 @@
-﻿@model IEnumerable<CityWeather>
-
-<div class="flex-borderless margin-auto container">
-	@foreach (CityWeather cityWeather in Model)
-	{
-		@await Component.InvokeAsync("Box",cityWeather)
-	}
-</div>

@@ -1,0 +1,15 @@
+O:\Repositories\WeatherApplicationRepository\Interfaces\bin\Debug\net8.0\Interfaces.deps.json
+O:\Repositories\WeatherApplicationRepository\Interfaces\bin\Debug\net8.0\Interfaces.dll
+O:\Repositories\WeatherApplicationRepository\Interfaces\bin\Debug\net8.0\Interfaces.pdb
+O:\Repositories\WeatherApplicationRepository\Interfaces\bin\Debug\net8.0\Models.dll
+O:\Repositories\WeatherApplicationRepository\Interfaces\bin\Debug\net8.0\Models.pdb
+O:\Repositories\WeatherApplicationRepository\Interfaces\obj\Debug\net8.0\Interfaces.csproj.AssemblyReference.cache
+O:\Repositories\WeatherApplicationRepository\Interfaces\obj\Debug\net8.0\Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+O:\Repositories\WeatherApplicationRepository\Interfaces\obj\Debug\net8.0\Interfaces.AssemblyInfoInputs.cache
+O:\Repositories\WeatherApplicationRepository\Interfaces\obj\Debug\net8.0\Interfaces.AssemblyInfo.cs
+O:\Repositories\WeatherApplicationRepository\Interfaces\obj\Debug\net8.0\Interfaces.csproj.CoreCompileInputs.cache
+O:\Repositories\WeatherApplicationRepository\Interfaces\obj\Debug\net8.0\Interfaces.csproj.CopyComplete
+O:\Repositories\WeatherApplicationRepository\Interfaces\obj\Debug\net8.0\Interfaces.dll
+O:\Repositories\WeatherApplicationRepository\Interfaces\obj\Debug\net8.0\refint\Interfaces.dll
+O:\Repositories\WeatherApplicationRepository\Interfaces\obj\Debug\net8.0\Interfaces.pdb
+O:\Repositories\WeatherApplicationRepository\Interfaces\obj\Debug\net8.0\ref\Interfaces.dll

@@ -1,10 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using WeatherApplication.Models;
+using Models;
 
 namespace WeatherApplication.ViewComponents
 {
 	public class BoxViewComponent : ViewComponent
 	{
+
 		private string ReturnBoxColor(int? temperature)
 		{
 			return temperature switch

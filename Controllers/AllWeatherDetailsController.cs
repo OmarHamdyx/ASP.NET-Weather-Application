@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using WeatherApplication.Factories;
-using WeatherApplication.StaticClasses;
+
 
 namespace WeatherApplication.Controllers
 {

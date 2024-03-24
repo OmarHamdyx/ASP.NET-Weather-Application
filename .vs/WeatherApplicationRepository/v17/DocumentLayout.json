@@ -1,0 +1,233 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "O:\\Repositories\\WeatherApplicationRepository\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D2C597-DE2D-40D7-B0EB-C6B9EFF6655F}|WeatherApplication\\WeatherApplication.csproj|o:\\repositories\\weatherapplicationrepository\\weatherapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E7D2C597-DE2D-40D7-B0EB-C6B9EFF6655F}|WeatherApplication\\WeatherApplication.csproj|solutionrelative:weatherapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D2C597-DE2D-40D7-B0EB-C6B9EFF6655F}|WeatherApplication\\WeatherApplication.csproj|o:\\repositories\\weatherapplicationrepository\\weatherapplication\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E7D2C597-DE2D-40D7-B0EB-C6B9EFF6655F}|WeatherApplication\\WeatherApplication.csproj|solutionrelative:weatherapplication\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D58DAAB-67D1-41E5-9D97-46B72BE86838}|Services\\Services.csproj|o:\\repositories\\weatherapplicationrepository\\services\\setviewbag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D58DAAB-67D1-41E5-9D97-46B72BE86838}|Services\\Services.csproj|solutionrelative:services\\setviewbag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D58DAAB-67D1-41E5-9D97-46B72BE86838}|Services\\Services.csproj|o:\\repositories\\weatherapplicationrepository\\services\\citiesprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D58DAAB-67D1-41E5-9D97-46B72BE86838}|Services\\Services.csproj|solutionrelative:services\\citiesprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D2C597-DE2D-40D7-B0EB-C6B9EFF6655F}|WeatherApplication\\WeatherApplication.csproj|o:\\repositories\\weatherapplicationrepository\\weatherapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D2C597-DE2D-40D7-B0EB-C6B9EFF6655F}|WeatherApplication\\WeatherApplication.csproj|solutionrelative:weatherapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D2C597-DE2D-40D7-B0EB-C6B9EFF6655F}|WeatherApplication\\WeatherApplication.csproj|o:\\repositories\\weatherapplicationrepository\\weatherapplication\\controllers\\cityweatherdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D2C597-DE2D-40D7-B0EB-C6B9EFF6655F}|WeatherApplication\\WeatherApplication.csproj|solutionrelative:weatherapplication\\controllers\\cityweatherdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D2C597-DE2D-40D7-B0EB-C6B9EFF6655F}|WeatherApplication\\WeatherApplication.csproj|o:\\repositories\\weatherapplicationrepository\\weatherapplication\\controllers\\allweatherdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D2C597-DE2D-40D7-B0EB-C6B9EFF6655F}|WeatherApplication\\WeatherApplication.csproj|solutionrelative:weatherapplication\\controllers\\allweatherdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3A50AF4-D144-4270-9A3D-EF60E48EC5E5}|Interfaces\\Interfaces.csproj|o:\\repositories\\weatherapplicationrepository\\interfaces\\isetviewbag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3A50AF4-D144-4270-9A3D-EF60E48EC5E5}|Interfaces\\Interfaces.csproj|solutionrelative:interfaces\\isetviewbag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D58DAAB-67D1-41E5-9D97-46B72BE86838}|Services\\Services.csproj|o:\\repositories\\weatherapplicationrepository\\services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2D58DAAB-67D1-41E5-9D97-46B72BE86838}|Services\\Services.csproj|solutionrelative:services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3A50AF4-D144-4270-9A3D-EF60E48EC5E5}|Interfaces\\Interfaces.csproj|o:\\repositories\\weatherapplicationrepository\\interfaces\\icitiesprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3A50AF4-D144-4270-9A3D-EF60E48EC5E5}|Interfaces\\Interfaces.csproj|solutionrelative:interfaces\\icitiesprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3A50AF4-D144-4270-9A3D-EF60E48EC5E5}|Interfaces\\Interfaces.csproj|o:\\repositories\\weatherapplicationrepository\\interfaces\\interfaces.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E3A50AF4-D144-4270-9A3D-EF60E48EC5E5}|Interfaces\\Interfaces.csproj|solutionrelative:interfaces\\interfaces.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D2C597-DE2D-40D7-B0EB-C6B9EFF6655F}|WeatherApplication\\WeatherApplication.csproj|o:\\repositories\\weatherapplicationrepository\\weatherapplication\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{E7D2C597-DE2D-40D7-B0EB-C6B9EFF6655F}|WeatherApplication\\WeatherApplication.csproj|solutionrelative:weatherapplication\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "O:\\Repositories\\WeatherApplicationRepository\\WeatherApplication\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WeatherApplication\\appsettings.Development.json",
+              "ToolTip": "O:\\Repositories\\WeatherApplicationRepository\\WeatherApplication\\appsettings.Development.json",
+              "RelativeToolTip": "WeatherApplication\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-24T02:12:21.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "O:\\Repositories\\WeatherApplicationRepository\\WeatherApplication\\appsettings.json",
+              "RelativeDocumentMoniker": "WeatherApplication\\appsettings.json",
+              "ToolTip": "O:\\Repositories\\WeatherApplicationRepository\\WeatherApplication\\appsettings.json",
+              "RelativeToolTip": "WeatherApplication\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-24T02:11:46.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SetViewBag.cs",
+              "DocumentMoniker": "O:\\Repositories\\WeatherApplicationRepository\\Services\\SetViewBag.cs",
+              "RelativeDocumentMoniker": "Services\\SetViewBag.cs",
+              "ToolTip": "O:\\Repositories\\WeatherApplicationRepository\\Services\\SetViewBag.cs",
+              "RelativeToolTip": "Services\\SetViewBag.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T14:26:16.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CitiesProvider.cs",
+              "DocumentMoniker": "O:\\Repositories\\WeatherApplicationRepository\\Services\\CitiesProvider.cs",
+              "RelativeDocumentMoniker": "Services\\CitiesProvider.cs",
+              "ToolTip": "O:\\Repositories\\WeatherApplicationRepository\\Services\\CitiesProvider.cs",
+              "RelativeToolTip": "Services\\CitiesProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T05:19:07.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "O:\\Repositories\\WeatherApplicationRepository\\WeatherApplication\\Program.cs",
+              "RelativeDocumentMoniker": "WeatherApplication\\Program.cs",
+              "ToolTip": "O:\\Repositories\\WeatherApplicationRepository\\WeatherApplication\\Program.cs",
+              "RelativeToolTip": "WeatherApplication\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T05:18:45.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AllWeatherDetailsController.cs",
+              "DocumentMoniker": "O:\\Repositories\\WeatherApplicationRepository\\WeatherApplication\\Controllers\\AllWeatherDetailsController.cs",
+              "RelativeDocumentMoniker": "WeatherApplication\\Controllers\\AllWeatherDetailsController.cs",
+              "ToolTip": "O:\\Repositories\\WeatherApplicationRepository\\WeatherApplication\\Controllers\\AllWeatherDetailsController.cs",
+              "RelativeToolTip": "WeatherApplication\\Controllers\\AllWeatherDetailsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T03:53:24.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CityWeatherDetailsController.cs",
+              "DocumentMoniker": "O:\\Repositories\\WeatherApplicationRepository\\WeatherApplication\\Controllers\\CityWeatherDetailsController.cs",
+              "RelativeDocumentMoniker": "WeatherApplication\\Controllers\\CityWeatherDetailsController.cs",
+              "ToolTip": "O:\\Repositories\\WeatherApplicationRepository\\WeatherApplication\\Controllers\\CityWeatherDetailsController.cs",
+              "RelativeToolTip": "WeatherApplication\\Controllers\\CityWeatherDetailsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T03:53:25.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ISetViewBag.cs",
+              "DocumentMoniker": "O:\\Repositories\\WeatherApplicationRepository\\Interfaces\\ISetViewBag.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ISetViewBag.cs",
+              "ToolTip": "O:\\Repositories\\WeatherApplicationRepository\\Interfaces\\ISetViewBag.cs",
+              "RelativeToolTip": "Interfaces\\ISetViewBag.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T14:25:19.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Services.csproj",
+              "DocumentMoniker": "O:\\Repositories\\WeatherApplicationRepository\\Services\\Services.csproj",
+              "RelativeDocumentMoniker": "Services\\Services.csproj",
+              "ToolTip": "O:\\Repositories\\WeatherApplicationRepository\\Services\\Services.csproj",
+              "RelativeToolTip": "Services\\Services.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-21T03:34:45.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICitiesProvider.cs",
+              "DocumentMoniker": "O:\\Repositories\\WeatherApplicationRepository\\Interfaces\\ICitiesProvider.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ICitiesProvider.cs",
+              "ToolTip": "O:\\Repositories\\WeatherApplicationRepository\\Interfaces\\ICitiesProvider.cs",
+              "RelativeToolTip": "Interfaces\\ICitiesProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T03:37:08.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Interfaces.csproj",
+              "DocumentMoniker": "O:\\Repositories\\WeatherApplicationRepository\\Interfaces\\Interfaces.csproj",
+              "RelativeDocumentMoniker": "Interfaces\\Interfaces.csproj",
+              "ToolTip": "O:\\Repositories\\WeatherApplicationRepository\\Interfaces\\Interfaces.csproj",
+              "RelativeToolTip": "Interfaces\\Interfaces.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-21T03:52:47.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "README.md",
+              "DocumentMoniker": "O:\\Repositories\\WeatherApplicationRepository\\WeatherApplication\\README.md",
+              "RelativeDocumentMoniker": "WeatherApplication\\README.md",
+              "ToolTip": "O:\\Repositories\\WeatherApplicationRepository\\WeatherApplication\\README.md",
+              "RelativeToolTip": "WeatherApplication\\README.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-03-21T03:49:25.566Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

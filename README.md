@@ -42,7 +42,7 @@ Usage
 Setup
 -----
 
-1.  Clone the repository to your local machine(Master is main project and first branch is dependencies)
+1.  Clone the repository to your local machine
 2.  Open the project in Visual Studio or any preferred code editor.
 3.  Build and run the project.
 

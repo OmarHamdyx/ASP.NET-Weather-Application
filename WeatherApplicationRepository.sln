@@ -5,15 +5,15 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherApplication", "WeatherApplication\WeatherApplication.csproj", "{E7D2C597-DE2D-40D7-B0EB-C6B9EFF6655F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{2D58DAAB-67D1-41E5-9D97-46B72BE86838}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{2D58DAAB-67D1-41E5-9D97-46B72BE86838}"
 	ProjectSection(ProjectDependencies) = postProject
 		{16D978C1-5FB5-4FB9-9D2C-06DFC589EABE} = {16D978C1-5FB5-4FB9-9D2C-06DFC589EABE}
 		{E3A50AF4-D144-4270-9A3D-EF60E48EC5E5} = {E3A50AF4-D144-4270-9A3D-EF60E48EC5E5}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{E3A50AF4-D144-4270-9A3D-EF60E48EC5E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{E3A50AF4-D144-4270-9A3D-EF60E48EC5E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{16D978C1-5FB5-4FB9-9D2C-06DFC589EABE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{16D978C1-5FB5-4FB9-9D2C-06DFC589EABE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

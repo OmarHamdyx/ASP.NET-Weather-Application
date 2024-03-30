@@ -1,5 +1,4 @@
 using Interfaces;
-using Microsoft.Extensions.Options;
 using Services;
 
 var builder = WebApplication.CreateBuilder(args);
